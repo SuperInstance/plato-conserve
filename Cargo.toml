@@ -1,0 +1,10 @@
+[package]
+name = "plato-conserve"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Conservation law tracking for PLATO tile transformations"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+uuid = { version = "1", features = ["v4"] }
